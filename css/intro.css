@@ -8,34 +8,11 @@ body {
     color:  #d1ccc4;
     border: 5px solid #d1ccc4;
     margin-bottom: 4rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     
 }
 
-* {
-    
-    box-sizing: border-box;
-    
-  }
- 
-  /* Create three equal columns that floats next to each other */
-  .column {
-      
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-    
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-  
+
   @media only screen and (max-width: 768px) {
     .column {
       width: 100%;
@@ -62,3 +39,8 @@ body {
 
   }
 
+  
+  input[type="submit"]{padding:5px 15px; background:#ccc; border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }

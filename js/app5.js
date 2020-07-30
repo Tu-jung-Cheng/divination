@@ -300,8 +300,8 @@ function getRandom(){
     getGua[7]=new Array();getGua[7][0]="小畜";getGua[7][1]="觀";getGua[7][2]="中孚";getGua[7][3]="漸";getGua[7][4]="家人";getGua[7][5]="渙";getGua[7][6]="益";getGua[7][7]="巽";
     }
     
-    {document.write("<br><font size=5><b>　　"+getGua[upNum1][downNum1]+"卦　　變　　");
-    document.write(getGua[upNum2][downNum2]+"卦　</font></b><br>");
+    {document.write("<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦　　變　　");
+    document.write(getGua[upNum2][downNum2]+"卦</font></b><br>");
     }
     
     if(getGua[upNum1][downNum1]==getGua[upNum2][downNum2]){
