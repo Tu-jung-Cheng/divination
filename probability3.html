@@ -9,10 +9,60 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/probability.css">
+    <!-- 引用 font-awesome ICON 的 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    
 </head>
 
-<body>
-    <body background="img01.jpg"></body>
+<body background="img01.jpg">
+    <!--導覽列 -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <!--  這是 LOGO 文字或圖片  -->
+        <a class="navbar-brand" href="#">The Book of Change</a>
+        <!--  這是手機版時右上角呈現的選單按鈕, 注意:data-target表示按下這個按鈕時要控制展開收合的物件ID名稱  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- 這是按鈕上呈現的icon圖案 -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar-collapse表示這個框架區塊是可收展開的, 注意:id名稱必須跟button中的data-target一樣 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- 這是一組靠左側的選單 -->
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="./navbar/intro.html">介紹</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">文章</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="./navbar/artical.html">歌單問與答</a>
+                    <a class="dropdown-item" href="./navbar/love.html">愛情紅綠燈</a>
+                    <a class="dropdown-item" href="./navbar/know.html">易經小科普</a>
+                </div>
+            </li>
+            
+            </ul>
+            
+            <!-- 這是一組靠右側的選單 -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link " href="https://www.instagram.com/the_book_of_change/ "><i class="fab fa-instagram"></i> Instagram<span class="sr-only">(current)</span></a>
+                
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://linktr.ee/siberiancat">LinkTree</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" href="./navbar/contact.html">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+
     <div class="container">
         <!-- 標題 -->
         <div class="jumbotron">
