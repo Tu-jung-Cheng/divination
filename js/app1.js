@@ -290,14 +290,14 @@ function getRandom(){
         case 121:downNum2=4;break;case 212:downNum2=5;break;case 221:downNum2=6;break;case 112:downNum2=7;break;
     }
     var getGua=new Array();
-    {getGua[0]=new Array();getGua[0][0]="乾";getGua[0][1]="否";getGua[0][2]="履";getGua[0][3]="遯";getGua[0][4]="同人";getGua[0][5]="訟";getGua[0][6]="无妄";getGua[0][7]="姤";
-    getGua[1]=new Array();getGua[1][0]="泰";getGua[1][1]="坤";getGua[1][2]="臨";getGua[1][3]="謙";getGua[1][4]="明夷";getGua[1][5]="師";getGua[1][6]="復";getGua[1][7]="升";
-    getGua[2]=new Array();getGua[2][0]="夬";getGua[2][1]="萃";getGua[2][2]="兌";getGua[2][3]="咸";getGua[2][4]="革";getGua[2][5]="困";getGua[2][6]="隨";getGua[2][7]="大過";
-    getGua[3]=new Array();getGua[3][0]="大畜";getGua[3][1]="剝";getGua[3][2]="損";getGua[3][3]="艮";getGua[3][4]="賁";getGua[3][5]="蒙";getGua[3][6]="頤";getGua[3][7]="蠱";
-    getGua[4]=new Array();getGua[4][0]="大有";getGua[4][1]="晉";getGua[4][2]="睽";getGua[4][3]="旅";getGua[4][4]="離";getGua[4][5]="未濟";getGua[4][6]="噬嗑";getGua[4][7]="鼎";
-    getGua[5]=new Array();getGua[5][0]="需";getGua[5][1]="比";getGua[5][2]="節";getGua[5][3]="蹇";getGua[5][4]="既濟";getGua[5][5]="坎";getGua[5][6]="屯";getGua[5][7]="井";
-    getGua[6]=new Array();getGua[6][0]="大壯";getGua[6][1]="豫";getGua[6][2]="歸妹";getGua[6][3]="小過";getGua[6][4]="豐";getGua[6][5]="解";getGua[6][6]="震";getGua[6][7]="恒";
-    getGua[7]=new Array();getGua[7][0]="小畜";getGua[7][1]="觀";getGua[7][2]="中孚";getGua[7][3]="漸";getGua[7][4]="家人";getGua[7][5]="渙";getGua[7][6]="益";getGua[7][7]="巽";
+    {getGua[0]=new Array();getGua[0][0]="乾  ";getGua[0][1]="否  ";getGua[0][2]="履  ";getGua[0][3]="遯  ";getGua[0][4]="同人";getGua[0][5]="訟  ";getGua[0][6]="无妄";getGua[0][7]="姤  ";
+    getGua[1]=new Array();getGua[1][0]="泰  ";getGua[1][1]="坤  ";getGua[1][2]="臨  ";getGua[1][3]="謙  ";getGua[1][4]="明夷";getGua[1][5]="師  ";getGua[1][6]="復  ";getGua[1][7]="升  ";
+    getGua[2]=new Array();getGua[2][0]="夬  ";getGua[2][1]="萃  ";getGua[2][2]="兌  ";getGua[2][3]="咸  ";getGua[2][4]="革  ";getGua[2][5]="困  ";getGua[2][6]="隨  ";getGua[2][7]="大過";
+    getGua[3]=new Array();getGua[3][0]="大畜";getGua[3][1]="剝  ";getGua[3][2]="損  ";getGua[3][3]="艮  ";getGua[3][4]="賁  ";getGua[3][5]="蒙  ";getGua[3][6]="頤  ";getGua[3][7]="蠱  ";
+    getGua[4]=new Array();getGua[4][0]="大有";getGua[4][1]="晉  ";getGua[4][2]="睽  ";getGua[4][3]="旅  ";getGua[4][4]="離  ";getGua[4][5]="未濟";getGua[4][6]="噬嗑";getGua[4][7]="鼎  ";
+    getGua[5]=new Array();getGua[5][0]="需  ";getGua[5][1]="比  ";getGua[5][2]="節  ";getGua[5][3]="蹇  ";getGua[5][4]="既濟";getGua[5][5]="坎  ";getGua[5][6]="屯  ";getGua[5][7]="井  ";
+    getGua[6]=new Array();getGua[6][0]="大壯";getGua[6][1]="豫  ";getGua[6][2]="歸妹";getGua[6][3]="小過";getGua[6][4]="豐  ";getGua[6][5]="解  ";getGua[6][6]="震  ";getGua[6][7]="恒  ";
+    getGua[7]=new Array();getGua[7][0]="小畜";getGua[7][1]="觀  ";getGua[7][2]="中孚";getGua[7][3]="漸  ";getGua[7][4]="家人";getGua[7][5]="渙  ";getGua[7][6]="益  ";getGua[7][7]="巽  ";
     }
     
     {document.write("<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦　　變　　");
