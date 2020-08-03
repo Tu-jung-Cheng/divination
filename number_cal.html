@@ -1,6 +1,6 @@
 <html>
     
-    <script src="./js/intro.js"></script>
+    <script src="./js/cal.js"></script>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 <head>
     
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/probability.css">
     <!-- 引用 font-awesome ICON 的 CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 
@@ -60,6 +60,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="number_cal.html "><i class="fab fa-pagelines"></i><span class="sr-only">(current)</span></a>
+                
+            </li>
             </ul>
         </div>
         </nav>
@@ -67,29 +71,14 @@
         <!-- 標題 -->
         <div class="jumbotron">
             <center>
-                <form action="/action_page.php">
-                    
-                    <input type="text" id="n1" name="n1">
-                    
-                    <input type="text" id="n2" name="n2">
-
-                    <input type="text" id="n3" name="n3">
-
-                    <input type="text" id="n4" name="n4">
-
-                    <input type="text" id="n5" name="n5">
-
-                    <input type="text" id="n6" name="n6">
-                    <input type="submit" value="Submit">
-                  </form>
-            </center>
+                <h5>輸入6個小於1000的數，以空格分隔</h5>
+                <input type="text" id="n1" name="n1">
+                <button onclick="submit()">Submit</button><br>
+            
+                </center>
         </div>
 
-   
 
-
-    
-        
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

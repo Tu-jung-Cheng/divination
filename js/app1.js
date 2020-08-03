@@ -20,12 +20,12 @@ var getS=new Array();
         getS[1][7]="升卦：感情緩慢成長<br>切記急躁，需要步步為營<br>若有朋友幫助，感情可以升溫。";
 
         getS[2]=new Array();
-        getS[2][0]="夬卦：果斷解決<br>公開而強硬的手段固然明快，但會招來危險。<br>要多使用手腕，溫和處理，才能長保安康";
-        getS[2][1]="萃卦：萬物薈萃<br>利於匯聚眾人之力，集中人氣。排場盛大為宜。<br>凡事應隆重舉行以表達誠意，不應吝嗇";
+        getS[2][0]="夬卦：最好果斷決定<br>對方可能有不專情的嫌疑<br>要多使用手腕，溫和處理感情問題。";
+        getS[2][1]="萃卦：雙方情投意合<br>若是有朋友當助攻有利於感情發展<br>相處時可以多展現自己的知識。";
         getS[2][2]="兌卦：喜悅滋潤<br>以喜悅來驅動人，則冒死犯難在所不辭。<br>施比受者有福，凡事守正可以亨通";
         getS[2][3]="咸卦：心有靈犀<br>感情大吉，男女心心相映，婚姻幸福。<br>諸事多虛心傾聽，同情心待人；若問身體，小心受傷、重病";
         getS[2][4]="革卦：洗心革面<br>真心改革去舊，才能重新取得威信。<br>若是守舊不變，則是自取滅亡";
-        getS[2][5]="困卦：山窮水盡<br>注意操守，謹慎言語，得以窮中求通。<br>空口說白話，於事無補，還會自取其辱";
+        getS[2][5]="困卦：孤立無援<br>已經到了山窮水盡的地步<br>陷入困境，需要審視這段感情是否合適哦";
         getS[2][6]="隨卦：順其自然<br>得失無常，以不變應萬變。<br>一切船到橋頭自然直";
         getS[2][7]="大過卦：棟樑不穩。<br>有將無兵，事情難成。<br>長遠之計，另求去處。若問身體，慎防滅頂之災";
 
@@ -51,7 +51,7 @@ var getS=new Array();
 
         getS[5]=new Array();
         getS[5][0]="需卦：等待時機<br>坎險阻隔，龍困淺灘。<br>退守靜待時機可以以逸代勞，強渡將遇險難";
-        getS[5][1]="比卦：親近比附<br>輔佐、親近君王，應該當仁不讓，<br>不落人後，則前途無量";
+        getS[5][1]="比卦：親密無間<br>若有曖昧對象算是兩情相悅哦<br>是個可以互相扶持的關係";
         getS[5][2]="節卦：節制制止<br>適可而止，可以小亨通，不知節制則凶。<br>但節制也不可太過，否則辛苦而無法持久";
         getS[5][3]="蹇卦：知難而退<br>危險在前不宜前進，當止則止。<br>既然諸事不宜，退守而閉關修養不失為良策";
         getS[5][4]="既濟卦：水火調和<br>守成不易，凡事應防患未然。<br>事情處於最完美的高峰，應力圖減緩衰退";
@@ -61,7 +61,7 @@ var getS=new Array();
 
         getS[6]=new Array();
         getS[6][0]="大壯卦：理直氣壯<br>氣勢過於強盛，容易與人衝突。<br>應冷靜多加審察情勢，避免莽撞造成錯誤";
-        getS[6][1]="豫卦：快樂春吶<br>春臨大地，萬物振奮。<br>用心傾聽、體會與享受，但不要沉溺與貪戀";
+        getS[6][1]="豫卦：高興喜悅<br>春臨大地，萬物振奮。<br>用心傾聽、體會與享受，但不要沉溺與貪戀";
         getS[6][2]="歸妹卦：少女嫁人<br>婚姻、結盟可成，但長遠恐有後遺症。<br>其餘諸事，出征、行動都大凶";
         getS[6][3]="小過卦：小心渡過<br>宜於靜止不動，往下走為吉，往上飛則凶。<br>小事可成，大事大凶，凡事退守、居靜為吉";
         getS[6][4]="豐卦：豐富盛大<br>諸事大吉，有貴人蒞臨共襄盛舉之象。<br>凡事不用擔憂，宜打鐵趁熱";
@@ -90,39 +90,27 @@ function getRandom(){
     switch(yau1){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yautop1=2;
-            yauCtop1=1;
-            changeNum1=1;
+            yautop1=2;yauCtop1=1;changeNum1=1;
             break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yautop1=1;
-            yauCtop1=2;
-            changeNum1=1;
+            yautop1=1;yauCtop1=2;changeNum1=1;
             break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop1=1;
-            yauCtop1=1;
-            changeNum1=0;
+            yautop1=1;yauCtop1=1;changeNum1=0;
             break;
         case 3:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop1=1;
-            yauCtop1=1;
-            changeNum1=0;
+            yautop1=1;yauCtop1=1;changeNum1=0;
             break;
         case 5:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop1=1;
-            yauCtop1=1;
-            changeNum1=0;
+            yautop1=1;yauCtop1=1;changeNum1=0;
             break;
         default:
             document.write("<img src='yin.jpg' />"+"<br>");
-            yautop1=2;
-            yauCtop1=2;
-            changeNum1=0;
+            yautop1=2;yauCtop1=2;changeNum1=0;
     }
     document.write("<br />");
 
@@ -133,39 +121,27 @@ function getRandom(){
     switch(yau2){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yautop2=2;
-            yauCtop2=1;
-            changeNum2=1;
+            yautop2=2;yauCtop2=1;changeNum2=1;
             break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yautop2=1;
-            yauCtop2=2;
-            changeNum2=1;
+            yautop2=1;yauCtop2=2;changeNum2=1;
             break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop2=1;
-            yauCtop2=1;
-            changeNum2=0;
+            yautop2=1;yauCtop2=1;changeNum2=0;
             break;
         case 3:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop2=1;
-            yauCtop2=1;
-            changeNum2=0;
+            yautop2=1;yauCtop2=1;changeNum2=0;
             break;
         case 5:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop2=1;
-            yauCtop2=1;
-            changeNum2=0;
+            yautop2=1;yauCtop2=1;changeNum2=0;
             break;
         default:
             document.write("<img src='yin.jpg' />"+"<br>");
-            yautop2=2;
-            yauCtop2=2;
-            changeNum2=0;
+            yautop2=2;yauCtop2=2;changeNum2=0;
     }
     document.write("<br />");
     var yau3=Math.round(Math.random()*100000)%8;
@@ -176,13 +152,12 @@ function getRandom(){
     switch(yau3){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yautop3=2;
-            yauCtop3=1;
-            changeNum3=1;
+            yautop3=2;yauCtop3=1;changeNum3=1;
             break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yautop3=1;yauCtop3=2;changeNum3=1;break;
+            yautop3=1;yauCtop3=2;changeNum3=1;
+            break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
             yautop3=1;yauCtop3=1;changeNum3=0;break;
@@ -191,7 +166,8 @@ function getRandom(){
             yautop3=1;yauCtop3=1;changeNum3=0;break;
         case 5:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yautop3=1;yauCtop3=1;changeNum3=0;break;
+            yautop3=1;yauCtop3=1;changeNum3=0;
+            break;
         default:
             document.write("<img src='yin.jpg' />"+"<br>");
             yautop3=2;yauCtop3=2;changeNum3=0;
@@ -204,13 +180,16 @@ function getRandom(){
     switch(yau4){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yaudown1=2;yauCdown1=1;changeNum4=1;break;
+            yaudown1=2;yauCdown1=1;changeNum4=1;
+            break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yaudown1=1;yauCdown1=2;changeNum4=1;break;
+            yaudown1=1;yauCdown1=2;changeNum4=1;
+            break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yaudown1=1;yauCdown1=1;changeNum4=0;break;
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+            break;
         case 3:
             document.write("<img src='yan.jpg' />"+"<br>");
             yaudown1=1;yauCdown1=1;changeNum4=0;break;
@@ -227,13 +206,16 @@ function getRandom(){
     switch(yau5){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yaudown2=2;yauCdown2=1;changeNum5=1;break;
+            yaudown2=2;yauCdown2=1;changeNum5=1;
+            break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yaudown2=1;yauCdown2=2;changeNum5=1;break;
+            yaudown2=1;yauCdown2=2;changeNum5=1;
+            break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yaudown2=1;yauCdown2=1;changeNum5=0;break;
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+            break;
         case 3:
             document.write("<img src='yan.jpg' />"+"<br>");
             yaudown2=1;yauCdown2=1;changeNum5=0;break;
@@ -250,13 +232,16 @@ function getRandom(){
     switch(yau6){
         case 0:
             document.write("<img src='yinchange.jpg' />"+"<br>");
-            yaudown3=2;yauCdown3=1;changeNum6=1;break;
+            yaudown3=2;yauCdown3=1;changeNum6=1;
+            break;
         case 7:
             document.write("<img src='yanchange.jpg' />"+"<br>");
-            yaudown3=1;yauCdown3=2;changeNum6=1;break;
+            yaudown3=1;yauCdown3=2;changeNum6=1;
+            break;
         case 1:
             document.write("<img src='yan.jpg' />"+"<br>");
-            yaudown3=1;yauCdown3=1;changeNum6=0;break;
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+            break;
         case 3:
             document.write("<img src='yan.jpg' />"+"<br>");
             yaudown3=1;yauCdown3=1;changeNum6=0;break;
@@ -290,7 +275,7 @@ function getRandom(){
         case 121:downNum2=4;break;case 212:downNum2=5;break;case 221:downNum2=6;break;case 112:downNum2=7;break;
     }
     var getGua=new Array();
-    {getGua[0]=new Array();getGua[0][0]="乾  ";getGua[0][1]="否  ";getGua[0][2]="履  ";getGua[0][3]="遯  ";getGua[0][4]="同人";getGua[0][5]="訟  ";getGua[0][6]="无妄";getGua[0][7]="姤  ";
+    {getGua[0]=new Array();getGua[0][0]="乾  ";getGua[0][1]="否  ";getGua[0][2]="履  ";getGua[0][3]="遯  ";getGua[0][4]="同人";getGua[0][5]="訟  ";getGua[0][6]="無妄";getGua[0][7]="姤  ";
     getGua[1]=new Array();getGua[1][0]="泰  ";getGua[1][1]="坤  ";getGua[1][2]="臨  ";getGua[1][3]="謙  ";getGua[1][4]="明夷";getGua[1][5]="師  ";getGua[1][6]="復  ";getGua[1][7]="升  ";
     getGua[2]=new Array();getGua[2][0]="夬  ";getGua[2][1]="萃  ";getGua[2][2]="兌  ";getGua[2][3]="咸  ";getGua[2][4]="革  ";getGua[2][5]="困  ";getGua[2][6]="隨  ";getGua[2][7]="大過";
     getGua[3]=new Array();getGua[3][0]="大畜";getGua[3][1]="剝  ";getGua[3][2]="損  ";getGua[3][3]="艮  ";getGua[3][4]="賁  ";getGua[3][5]="蒙  ";getGua[3][6]="頤  ";getGua[3][7]="蠱  ";
