@@ -84,8 +84,7 @@ var getS=new Array();
 function submit(){
     var str = document.getElementById("n1").value;
     var res = str.split(" ", 6);
-    //document.write(res+"<br>");
-    document.getElementById("demo").innerHTML = "<br>";  
+    document.write(res+"<br>");
 
     var yau1=res[5];
     var a = Math.floor(yau1/100);
@@ -99,38 +98,64 @@ function submit(){
     var yautop1;
     var yauCtop1;
    if  (g%2===0){
-       if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
+       if (a%2 === 0 && b%2===0 && c%2===0){
         yautop1=2;yauCtop1=1;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
-        //document.write("<img src='yinchange.jpg' />"+"<br>");}
-    
-       else if (a%2+b%2+c%2===1 ||a%2+b%2+c%2===2  ){
+        document.write("<img src='yinchange.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===1 && c%2===1){
+        yautop1=2;yauCtop1=1;changeNum1=1;
+        document.write("<img src='yinchange.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===1 && c%2===0){
         yautop1=2;yauCtop1=2;changeNum1=0;
-        document.getElementById("demo").innerHTML += "<img src='yin.jpg' />"+"<br>";  }
-        //document.write("<img src='yin.jpg' />"+"<br>");}
-    
+        document.write("<img src='yin.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===0 && c%2===1){
+        yautop1=2;yauCtop1=2;changeNum1=0;
+        document.write("<img src='yin.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===1 && c%2===1){
+        yautop1=2;yauCtop1=2;changeNum1=0;
+        document.write("<img src='yin.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===0 && c%2===0){
+        yautop1=2;yauCtop1=2;changeNum1=0;
+        document.write("<img src='yin.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===1 && c%2===0){
+        yautop1=2;yauCtop1=2;changeNum1=0;
+        document.write("<img src='yin.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===0 && c%2===1){
+        yautop1=2;yauCtop1=2;changeNum1=0;
+        document.write("<img src='yin.jpg' />"+"<br>");}
        else{
         yautop1=2;yauCtop1=2;changeNum1=0;
-        document.getElementById("demo").innerHTML += "<img src='yin.jpg' />"+"<br>";  }
-        //document.write("<img src='yin.jpg' />"+"<br>");}
+        document.write("<img src='yin.jpg' />"+"<br>");}
    }
-   else if (g%2===1){
-    if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
+   else {
+    if (a%2 === 0 && b%2===0 && c%2===0){
         yautop1=1;yauCtop1=2;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
-       else if (a%2+b%2+c%2===1 ||a%2+b%2+c%2===2  ){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===1 && c%2===1){
         yautop1=1;yauCtop1=2;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
- 
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===1 && c%2===0){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===0 && c%2===1){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===1 && c%2===1){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
+       else if (a%2===1 && b%2===0 && c%2===0){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===1 && c%2===0){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
+       else if (a%2===0 && b%2===0 && c%2===1){
+        yautop1=1;yauCtop1=1;changeNum1=0;
+        document.write("<img src='yan.jpg' />"+"<br>");}
        else{
         yautop1=1;yauCtop1=1;changeNum1=0;
-        document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+        document.write("<img src='yan.jpg' />"+"<br>");}
     }
-    else{
-        yautop1=1;yauCtop1=1;changeNum1=0;
-        document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";
-    }
-    document.getElementById("demo").innerHTML +="<br />";
+    document.write("<br />");
     var yau2=res[4];
     var a = Math.floor(yau2/100);
     var b = Math.floor((yau2-a*100)/10);
@@ -143,30 +168,64 @@ function submit(){
     var yautop2;
     var yauCtop2;
     if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
+        if (a%2 === 0 && b%2===0 && c%2===0){
         yautop2=2;yauCtop2=1;changeNum2=1;
-        document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
- 
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+        yautop2=2;yauCtop2=1;changeNum2=1;
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
+        yautop2=2;yauCtop2=2;changeNum2=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+        yautop2=2;yauCtop2=2;changeNum2=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+        yautop2=2;yauCtop2=2;changeNum2=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
             yautop2=2;yauCtop2=2;changeNum2=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yautop2=2;yauCtop2=2;changeNum2=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yautop2=2;yauCtop2=2;changeNum2=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
         else{
             yautop2=2;yauCtop2=2;changeNum2=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
+     if (a%2 === 0 && b%2===0 && c%2===0){
         yautop2=1;yauCtop2=2;changeNum2=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
-
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yautop2=1;yauCtop2=2;changeNum2=1;
+         document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yautop2=1;yauCtop2=1;changeNum2=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yautop2=1;yauCtop2=1;changeNum2=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yautop2=1;yauCtop2=1;changeNum2=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yautop2=1;yauCtop2=1;changeNum2=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yautop2=1;yauCtop2=1;changeNum2=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yautop2=1;yauCtop2=1;changeNum2=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
         else{
             yautop2=1;yauCtop2=1;changeNum2=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
      }
-     document.getElementById("demo").innerHTML +="<br />";
+    document.write("<br />");
     var yau3=res[3];
     var a = Math.floor(yau3/100);
     var b = Math.floor((yau3-a*100)/10);
@@ -180,30 +239,64 @@ function submit(){
     var yauCtop3;
 
     if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
+        if (a%2 === 0 && b%2===0 && c%2===0){
             yautop3=2;yauCtop3=1;changeNum3=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
- 
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yautop3=2;yauCtop3=1;changeNum3=1;
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yautop3=2;yauCtop3=2;changeNum3=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yautop3=2;yauCtop3=2;changeNum3=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yautop3=2;yauCtop3=2;changeNum3=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yautop3=2;yauCtop3=2;changeNum3=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yautop3=2;yauCtop3=2;changeNum3=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yautop3=2;yauCtop3=2;changeNum3=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
         else{
             yautop3=2;yauCtop3=2;changeNum3=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+     if (a%2 === 0 && b%2===0 && c%2===0){
         yautop3=1;yauCtop3=2;changeNum3=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
-
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yautop3=1;yauCtop3=2;changeNum3=1;
+         document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yautop3=1;yauCtop3=1;changeNum3=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yautop3=1;yauCtop3=1;changeNum3=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yautop3=1;yauCtop3=1;changeNum3=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yautop3=1;yauCtop3=1;changeNum3=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yautop3=1;yauCtop3=1;changeNum3=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yautop3=1;yauCtop3=1;changeNum3=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
         else{
             yautop3=1;yauCtop3=1;changeNum3=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
      }
-     document.getElementById("demo").innerHTML +="<br />";
+    document.write("<br />");
     var yau4=res[2];
     var a = Math.floor(yau4/100);
     var b = Math.floor((yau4-a*100)/10);
@@ -214,30 +307,64 @@ function submit(){
     var g = e+f;
     var changeNum4;var yaudown1;var yauCdown1;
     if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2 === 0 && b%2===0 && c%2===0){
             yaudown1=2;yauCdown1=1;changeNum4=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
-
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown1=2;yauCdown1=1;changeNum4=1;
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown1=2;yauCdown1=2;changeNum4=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown1=2;yauCdown1=2;changeNum4=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown1=2;yauCdown1=2;changeNum4=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown1=2;yauCdown1=2;changeNum4=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown1=2;yauCdown1=2;changeNum4=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown1=2;yauCdown1=2;changeNum4=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
         else{
             yaudown1=2;yauCdown1=2;changeNum4=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+     if (a%2 === 0 && b%2===0 && c%2===0){
         yaudown1=1;yauCdown1=2;changeNum4=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
-
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown1=1;yauCdown1=2;changeNum4=1;
+         document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown1=1;yauCdown1=1;changeNum4=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown1=1;yauCdown1=1;changeNum4=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
         else{
             yaudown1=1;yauCdown1=1;changeNum4=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
      }
-     document.getElementById("demo").innerHTML +="<br />";
+    document.write("<br />");
     var yau5=res[1];
     var a = Math.floor(yau5/100);
     var b = Math.floor((yau5-a*100)/10);
@@ -248,30 +375,64 @@ function submit(){
     var g = e+f;
     var changeNum5;var yaudown2;var yauCdown2;
     if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2 === 0 && b%2===0 && c%2===0){
             yaudown2=2;yauCdown2=1;changeNum5=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
-
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown2=2;yauCdown2=1;changeNum5=1;
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown2=2;yauCdown2=2;changeNum5=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown2=2;yauCdown2=2;changeNum5=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown2=2;yauCdown2=2;changeNum5=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown2=2;yauCdown2=2;changeNum5=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown2=2;yauCdown2=2;changeNum5=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown2=2;yauCdown2=2;changeNum5=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
         else{
             yaudown2=2;yauCdown2=2;changeNum5=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+     if (a%2 === 0 && b%2===0 && c%2===0){
         yaudown2=1;yauCdown2=2;changeNum5=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
- 
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown2=1;yauCdown2=2;changeNum5=1;
+         document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown2=1;yauCdown2=1;changeNum5=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown2=1;yauCdown2=1;changeNum5=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
         else{
             yaudown2=1;yauCdown2=1;changeNum5=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
      }
-    document.getElementById("demo").innerHTML +="<br />";
+    document.write("<br />");
     var yau6=res[0];
     var a = Math.floor(yau6/100);
     var b = Math.floor((yau6-a*100)/10);
@@ -282,28 +443,62 @@ function submit(){
     var g = e+f;
     var changeNum6;var yaudown3;var yauCdown3;
     if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2 === 0 && b%2===0 && c%2===0){
             yaudown3=2;yauCdown3=1;changeNum6=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
- 
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown3=2;yauCdown3=1;changeNum6=1;
+         document.write("<img src='yinchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown3=2;yauCdown3=2;changeNum6=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown3=2;yauCdown3=2;changeNum6=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown3=2;yauCdown3=2;changeNum6=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown3=2;yauCdown3=2;changeNum6=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown3=2;yauCdown3=2;changeNum6=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown3=2;yauCdown3=2;changeNum6=0;
+         document.write("<img src='yin.jpg' />"+"<br>");}
         else{
             yaudown3=2;yauCdown3=2;changeNum6=0;
-            document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+         document.write("<img src='yin.jpg' />"+"<br>");}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+     if (a%2 === 0 && b%2===0 && c%2===0){
         yaudown3=1;yauCdown3=2;changeNum6=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
- 
-        else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
+        document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===1){
+            yaudown3=1;yauCdown3=2;changeNum6=1;
+         document.write("<img src='yanchange.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===1 && c%2===0){
             yaudown3=1;yauCdown3=1;changeNum6=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===1){
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===1){
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===1 && b%2===0 && c%2===0){
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===1 && c%2===0){
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
+        else if (a%2===0 && b%2===0 && c%2===1){
+            yaudown3=1;yauCdown3=1;changeNum6=0;
+         document.write("<img src='yan.jpg' />"+"<br>");}
         else{
             yaudown3=1;yauCdown3=1;changeNum6=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+         document.write("<img src='yan.jpg' />"+"<br>");}
      }
 
      var mainguaTop=yautop1*100+yautop2*10+yautop3;
@@ -339,21 +534,18 @@ function submit(){
      getGua[7]=new Array();getGua[7][0]="小畜";getGua[7][1]="觀  ";getGua[7][2]="中孚";getGua[7][3]="漸  ";getGua[7][4]="家人";getGua[7][5]="渙  ";getGua[7][6]="益  ";getGua[7][7]="巽  ";
      }
      
-     {document.getElementById("demo").innerHTML +="<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦　　變　　"+getGua[upNum2][downNum2]+"卦</font></b><br>";
-     
+     {document.write("<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦　　變　　");
+     document.write(getGua[upNum2][downNum2]+"卦</font></b><br>");
      }
      
      if(getGua[upNum1][downNum1]==getGua[upNum2][downNum2]){
-        document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>";
+         document.write("<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>");
      }
      else{
-        document.getElementById("demo").innerHTML +="<br />";
-        document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>";
-        document.getElementById("demo").innerHTML +="<br />";
-        document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum2][downNum2]+"</font></b>";
+         document.write("<br />");
+         document.write("<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>");
+         document.write("<br />");
+         document.write("<br><font size=4>"+getS[upNum2][downNum2]+"</font></b>");
      }
-     document.getElementById("demo").innerHTML +="<br>"+"	</br>"
-     document.getElementById("demo").innerHTML +="<h5>若是想知道更多資訊，可以追蹤instagram"+"<a href="+"https://www.instagram.com/the_book_of_change/"+">＠the_book_of_change </a></h5>";
-
-     
+ 
 }
