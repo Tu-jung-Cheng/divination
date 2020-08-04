@@ -106,8 +106,8 @@ function submit(){
         
 
     else if  (g%2===0){
-       if (yau1>99 ){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+       if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (yau1>99){
             yautop1=2;yauCtop1=1;changeNum1=1;
             document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
         else{
@@ -127,8 +127,8 @@ function submit(){
         //document.write("<img src='yin.jpg' />"+"<br>");}
    }
    else{
-    if (yau1>99){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+    if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (yau1>99){
             yautop1=1;yauCtop1=2;changeNum1=1;
             document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
         else{
@@ -162,8 +162,8 @@ function submit(){
         yautop2=9;yauCtop2=9;changeNum2=9;
         document.getElementById("demo").innerHTML +="五爻錯誤"+"<br>";}
     else if  (g%2===0){
-        if (yau2>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau2>99){
                 yautop2=2;yauCtop2=1;changeNum2=1;
                 document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
             else{
@@ -179,8 +179,8 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-        if (yau2>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau2>99){
                 yautop2=1;yauCtop2=2;changeNum2=1;
                 document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
             else{
@@ -214,8 +214,8 @@ function submit(){
         document.getElementById("demo").innerHTML +="四爻錯誤"+"<br>";}
 
     else if  (g%2===0){
-        if (yau3>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau3>99){
                 yautop3=2;yauCtop3=1;changeNum3=1;
                 document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
             else{
@@ -231,8 +231,8 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-        if (yau3>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau3>99){
                 yautop3=1;yauCtop3=2;changeNum3=1;
                 document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
             else{
@@ -262,8 +262,8 @@ function submit(){
         document.getElementById("demo").innerHTML +="三爻錯誤"+"<br>";}
 
     else if  (g%2===0){
-        if (yau4>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau4>99){
                 yaudown1=2;yauCdown1=1;changeNum4=1;
                 document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
             else{
@@ -279,8 +279,8 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-        if (yau4>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau4>99){
                 yaudown1=1;yauCdown1=2;changeNum4=1;
                 document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
             else{
@@ -311,8 +311,8 @@ function submit(){
         
 
     else if  (g%2===0){
-        if (yau5>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau5>99){
                 yaudown2=2;yauCdown2=1;changeNum5=1;
                 document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
             else{
@@ -327,8 +327,8 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-        if (yau5>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau5>99){
                 yaudown2=1;yauCdown2=2;changeNum5=1;
                 document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
             else{
@@ -358,10 +358,9 @@ function submit(){
         yaudown3=9;yauCdown3=9;changeNum6=9;
         document.getElementById("demo").innerHTML +="初爻錯誤"+"<br>";}
         
-
     else if  (g%2===0){
-        if (yau6>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau6>99){
                 yaudown3=2;yauCdown3=1;changeNum6=1;
                 document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
             else{
@@ -376,8 +375,8 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-        if (yau6>99 ){
-            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            if (yau6>99){
                 yaudown3=1;yauCdown3=2;changeNum6=1;
                 document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}        
             else{
