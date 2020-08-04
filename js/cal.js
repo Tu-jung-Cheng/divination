@@ -1,23 +1,23 @@
 var getS=new Array();
     {getS[0]=new Array();
-        getS[0][0]="乾卦：問卦者剛強獨立<br>跟對象可能會有意見不合的情況<br>最忌高傲、頑固，適當低頭有助於感情發展。";
-        getS[0][1]="否卦：雙方不協調<br>陷入無法溝通或是交流的境地<br>感情方面諸事不宜，有可能被拒絕。";
-        getS[0][2]="履卦：感情如履薄冰<br>需要審視情況，量力而為<br>最好謹守禮節，可得小亨。";
-        getS[0][3]="遯卦：落花有意，流水無情<br>很可能被牽扯進不必要的是非<br>適當的給自己一點空間，逃離當下情況。";
-        getS[0][4]="同人卦：跟對象有默契<br>或是在工作環境找到同道合的伴侶<br>可能會在與人合作中增進感情。";
-        getS[0][5]="訟卦：和對象有爭執<br>感情中陷入是非<br>能放下堅持，退一步則海闊天空。";
-        getS[0][6]="無妄卦：會受到無妄之災<br>做白日夢，想法有點不切實際<br>談感情很有可能受到傷害。";
-        getS[0][7]="姤卦：感情無法長久，婚姻不宜<br>有對象不貞的情況<br>感情只是一場邂逅。";
+        getS[0][0]="乾卦：剛強獨立<br>強健而尊貴，萬事亨通。<br>最忌高傲、頑固，不能隨機應變";
+        getS[0][1]="否卦：閉塞不通<br>秋天肅殺之卦。君子道消，小人道長。<br>萬物凋零，諸事不宜";
+        getS[0][2]="履卦：如履薄冰<br>伴君如伴虎，謹守尊卑份際。<br>凡事循規蹈矩，可得小亨";
+        getS[0][3]="遯卦：遠離塵囂<br>世道將壞，遠離是非，獨善其身。<br>凡事當明哲保身，逃得越快越遠越好";
+        getS[0][4]="同人卦：與人結盟<br>待人宜心胸寬大，公正無私。<br>私心偏坦可能帶來兵戎之災";
+        getS[0][5]="訟卦：危險的堅持<br>與人爭訟，得失無常，福禍相生。<br>若能放下堅持，退一步則海闊天空";
+        getS[0][6]="無妄卦：無妄之災<br>循規蹈矩，行事毫無虛妄，則可以安然渡險。<br>若有虛妄，災難無法收拾";
+        getS[0][7]="姤卦：女性強悍主事<br>女子不貞，感情無法長久，婚姻不宜。<br>女性事業大吉，男子諸事不宜";
         
         getS[1]=new Array();
-        getS[1][0]="泰卦：與對象感情融洽<br>有良好的溝通<br>屬於情投意合的狀態，可以好好把握。";
-        getS[1][1]="坤卦：不應過於主動或積極進取<br>需要持之以恒，才可以成功<br>有主動付出的傾象，會較為辛苦。";
-        getS[1][2]="臨卦：再觀察一段時間<br>得失心不要太重<br>切記過於急躁，慢慢等待有機會成功。";
-        getS[1][3]="謙卦：需要謙卑自牧<br>保持修養，能有精神上的獲得<br>追求持之以恒，日久見人心。";
-        getS[1][4]="明夷卦：陷入黑暗的狀態<br>受傷很深，看不到未來<br>很有可能被對方拋棄。";
-        getS[1][5]="師卦：多重視對方想法<br>他是有魅力的人，會從他身上學到很多<br>不過可能有花心的傾向，需要多注意。";
-        getS[1][6]="復卦：同樣的情況反覆出現<br>容易分分合合，吵架的內容都是類似的<br>若要相處需要雙方互相包容";
-        getS[1][7]="升卦：感情緩慢成長<br>切記急躁，需要步步為營<br>若有朋友幫助，感情可以升溫。";
+        getS[1][0]="泰卦：三陽開泰<br>春天生長之卦。君子道長，小人道消。<br>陰陽合和，萬事如意";
+        getS[1][1]="坤卦：柔順堅貞<br>凡事不應過於主動或積極進取，後發者可以先至。<br>柔弱退讓，持之以恒，可以成功";
+        getS[1][2]="臨卦：監督視察<br>長官氣勢高漲，近逼下屬。<br>應防做事三分鐘熱度，無法持續";
+        getS[1][3]="謙卦：謙卑自牧<br>因為卑屈而偉大，能有精神上的獲得。<br>持之以恒，保持修養，能夠亨通";
+        getS[1][4]="明夷卦：黑暗動亂<br>時局動亂，社會黑暗，人才受到剷除。<br>諸事無成，求財不得，明哲保身才是上策";
+        getS[1][5]="師卦：興師動眾<br>事情複雜，責任重大，憂心重重。<br>有經驗者能勝任，沒經驗者將一敗塗地";
+        getS[1][6]="復卦：一元復始<br>生機暗藏，只等春天。<br>失物七日可得，尋人自歸";
+        getS[1][7]="升卦：緩慢成長<br>短期雖有憂鬱之象，但是樹苗終有成為大樹的一天。<br>若能尋得貴人相助，則可步步高陞";
 
         getS[2]=new Array();
         getS[2][0]="夬卦：果斷解決<br>公開而強硬的手段固然明快，但會招來危險。<br>要多使用手腕，溫和處理，才能長保安康";
@@ -47,7 +47,7 @@ var getS=new Array();
         getS[4][4]="離卦：過度聰明美麗<br>聰明太過反被聰明誤，美麗過盛則浮華不實。<br>最需要的是中庸與柔順";
         getS[4][5]="未濟卦：陰陽失序<br>美麗外表下藏著危險，無利可圖。<br>任何行動之前務必謹慎明辨，多方觀察";
         getS[4][6]="噬嗑卦：懲惡除奸<br>凡事都能夠小有獲得。<br>但要明辨是非，明察秋毫，以免因得而惹禍";
-        getS[4][7]="鼎卦：表面看似平穩<br>有第三者插足的跡象。<br>需要多留意對方的情況";
+        getS[4][7]="鼎卦：新的氣象<br>除舊布新，建立全新的面貌。<br>適宜培養人才，創新發明";
 
         getS[5]=new Array();
         getS[5][0]="需卦：等待時機<br>坎險阻隔，龍困淺灘。<br>退守靜待時機可以以逸代勞，強渡將遇險難";
@@ -76,16 +76,17 @@ var getS=new Array();
         getS[7][3]="漸卦：循序漸進<br>鴻鳥飛行，井然有序，女子嫁人大吉。<br>凡事只要循序漸進，自然可成";
         getS[7][4]="家人卦：管好家事<br>女子諸事大吉，可以旺夫。<br>凡事反躬自省，管好份內之事，則一切水道渠成";
         getS[7][5]="渙卦：危險退散<br>化險為夷之卦，但人心過於渙散需要整治。<br>雖然可以濟險，但諸事難成";
-        getS[7][6]="益卦：良緣天定<br>感情相輔相成<br>可以考慮關係更進一步。";
+        getS[7][6]="益卦：努力上進<br>凡事可積極進取，不要退縮。<br>多培養自己的實力，有長遠的利益";
         getS[7][7]="巽卦：柔順而漸進<br>小事可亨通，柔順慢慢來，諸事皆可成。<br>凡事記得再三叮嚀，有市利三倍之象";
         }
 
 
+
 function submit(){
     var str = document.getElementById("n1").value;
-    var res = str.split(" ", 6);
-    //document.write(res+"<br>");
-    document.getElementById("demo").innerHTML = "<br>";  
+
+    var res = str.split(/[-./\\()"',;<>~!@#$%^&*|+=[\]{}`~?: ]/u,6);
+    document.getElementById("demo").innerHTML ="<br></br>";  
 
     var yau1=res[5];
     var a = Math.floor(yau1/100);
@@ -95,13 +96,24 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau1_num=g;
     var changeNum1;
     var yautop1;
     var yauCtop1;
-   if  (g%2===0){
-       if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
-        yautop1=2;yauCtop1=1;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
+    if (a+b+c===0){
+        yautop1=9;yauCtop1=9;changeNum1=9;
+        document.getElementById("demo").innerHTML +="上爻錯誤"+"<br>";}
+        
+
+    else if  (g%2===0){
+       if (yau1>99 ){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            yautop1=2;yauCtop1=1;changeNum1=1;
+            document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
+        else{
+            yautop1=2;yauCtop1=2;changeNum1=0;
+            document.getElementById("demo").innerHTML += "<img src='yin.jpg' />"+"<br>";  }
+        }
         //document.write("<img src='yinchange.jpg' />"+"<br>");}
     
        else if (a%2+b%2+c%2===1 ||a%2+b%2+c%2===2  ){
@@ -114,21 +126,24 @@ function submit(){
         document.getElementById("demo").innerHTML += "<img src='yin.jpg' />"+"<br>";  }
         //document.write("<img src='yin.jpg' />"+"<br>");}
    }
-   else if (g%2===1){
-    if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
-        yautop1=1;yauCtop1=2;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
-       else if (a%2+b%2+c%2===1 ||a%2+b%2+c%2===2  ){
-        yautop1=1;yauCtop1=2;changeNum1=1;
-        document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
- 
-       else{
-        yautop1=1;yauCtop1=1;changeNum1=0;
-        document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+   else{
+    if (yau1>99){
+        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+            yautop1=1;yauCtop1=2;changeNum1=1;
+            document.getElementById("demo").innerHTML += "<img src='yanchange.jpg' />"+"<br>";}
+        else{
+            yautop1=1;yauCtop1=1;changeNum1=0;
+            document.getElementById("demo").innerHTML += "<img src='yan.jpg' />"+"<br>";}  
     }
-    else{
+    else if (a%2+b%2+c%2===1 ||a%2+b%2+c%2===2  ){
         yautop1=1;yauCtop1=1;changeNum1=0;
-        document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";
+        document.getElementById("demo").innerHTML += "<img src='yan.jpg' />"+"<br>";}
+ 
+    else{
+        yautop1=9;yauCtop1=9;changeNum1=9;
+        document.getElementById("demo").innerHTML +="上爻錯誤"+"<br>";}
+        //document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+    
     }
     document.getElementById("demo").innerHTML +="<br />";
     var yau2=res[4];
@@ -139,13 +154,22 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau2_num=g;
     var changeNum2;
     var yautop2;
     var yauCtop2;
-    if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
-        yautop2=2;yauCtop2=1;changeNum2=1;
-        document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+    if (a+b+c===0){
+        yautop2=9;yauCtop2=9;changeNum2=9;
+        document.getElementById("demo").innerHTML +="五爻錯誤"+"<br>";}
+    else if  (g%2===0){
+        if (yau2>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yautop2=2;yauCtop2=1;changeNum2=1;
+                document.getElementById("demo").innerHTML += "<img src='yinchange.jpg' />"+"<br>";  }
+            else{
+                yautop2=2;yauCtop2=2;changeNum2=0;
+                document.getElementById("demo").innerHTML += "<img src='yin.jpg' />"+"<br>";  }
+            }
  
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
             yautop2=2;yauCtop2=2;changeNum2=0;
@@ -155,17 +179,22 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
-        yautop2=1;yauCtop2=2;changeNum2=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
+        if (yau2>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yautop2=1;yauCtop2=2;changeNum2=1;
+                document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
+            else{
+                yautop2=1;yauCtop2=1;changeNum2=0;
+                document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            }
 
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
             yautop2=1;yauCtop2=1;changeNum2=0;
             document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
         else{
-            yautop2=1;yauCtop2=1;changeNum2=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
-     }
+            yautop2=9;yauCtop2=9;changeNum2=9;
+            document.getElementById("demo").innerHTML +="五爻錯誤"+"<br>";}
+        }
      document.getElementById("demo").innerHTML +="<br />";
     var yau3=res[3];
     var a = Math.floor(yau3/100);
@@ -175,15 +204,25 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau3_num=g;
     var changeNum3;
     var yautop3;
     var yauCtop3;
 
-    if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3 ){
-            yautop3=2;yauCtop3=1;changeNum3=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
- 
+    if (a+b+c===0){
+        yautop3=9;yauCtop3=9;changeNum3=9;
+        document.getElementById("demo").innerHTML +="四爻錯誤"+"<br>";}
+
+    else if  (g%2===0){
+        if (yau3>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yautop3=2;yauCtop3=1;changeNum3=1;
+                document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+            else{
+                yautop3=2;yauCtop3=2;changeNum3=0;
+                document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+            }
+        
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2 ){
             yautop3=2;yauCtop3=2;changeNum3=0;
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
@@ -192,17 +231,21 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-        yautop3=1;yauCtop3=2;changeNum3=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
-
+        if (yau3>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yautop3=1;yauCtop3=2;changeNum3=1;
+                document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
+            else{
+                yautop3=1;yauCtop3=1;changeNum3=0;
+                document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            }
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yautop3=1;yauCtop3=1;changeNum3=0;
             document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
         else{
-            yautop3=1;yauCtop3=1;changeNum3=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
-     }
+            yautop3=9;yauCtop3=9;changeNum3=9;
+            document.getElementById("demo").innerHTML +="四爻錯誤"+"<br>";}
+        }
      document.getElementById("demo").innerHTML +="<br />";
     var yau4=res[2];
     var a = Math.floor(yau4/100);
@@ -212,12 +255,22 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau4_num=g;
     var changeNum4;var yaudown1;var yauCdown1;
-    if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-            yaudown1=2;yauCdown1=1;changeNum4=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+    if (a+b+c===0){
+        yaudown1=9;yauCdown1=9;changeNum4=9;
+        document.getElementById("demo").innerHTML +="三爻錯誤"+"<br>";}
 
+    else if  (g%2===0){
+        if (yau4>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown1=2;yauCdown1=1;changeNum4=1;
+                document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+            else{
+                yaudown1=2;yauCdown1=2;changeNum4=0;
+                document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+            }
+        
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown1=2;yauCdown1=2;changeNum4=0;
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
@@ -226,17 +279,21 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-        yaudown1=1;yauCdown1=2;changeNum4=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
-
+        if (yau4>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown1=1;yauCdown1=2;changeNum4=1;
+                document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
+            else{
+                yaudown1=1;yauCdown1=1;changeNum4=0;
+                document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            }
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown1=1;yauCdown1=1;changeNum4=0;
             document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
         else{
-            yaudown1=1;yauCdown1=1;changeNum4=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
-     }
+            yaudown1=9;yauCdown1=9;changeNum4=9;
+            document.getElementById("demo").innerHTML +="三爻錯誤"+"<br>";}
+        }
      document.getElementById("demo").innerHTML +="<br />";
     var yau5=res[1];
     var a = Math.floor(yau5/100);
@@ -246,12 +303,22 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau5_num=g;
     var changeNum5;var yaudown2;var yauCdown2;
-    if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-            yaudown2=2;yauCdown2=1;changeNum5=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+    if (a+b+c===0){
+        yaudown2=9;yauCdown2=9;changeNum5=9;
+        document.getElementById("demo").innerHTML +="二爻錯誤"+"<br>";}
+        
 
+    else if  (g%2===0){
+        if (yau5>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown2=2;yauCdown2=1;changeNum5=1;
+                document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+            else{
+                yaudown2=2;yauCdown2=2;changeNum5=0;
+                document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+            }
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown2=2;yauCdown2=2;changeNum5=0;
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
@@ -260,16 +327,21 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-        yaudown2=1;yauCdown2=2;changeNum5=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
- 
+        if (yau5>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown2=1;yauCdown2=2;changeNum5=1;
+                document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
+            else{
+                yaudown2=1;yauCdown2=1;changeNum5=0;
+                document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            }
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown2=1;yauCdown2=1;changeNum5=0;
             document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
         else{
-            yaudown2=1;yauCdown2=1;changeNum5=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            yaudown2=9;yauCdown2=9;changeNum5=9;
+            //document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";
+            document.getElementById("demo").innerHTML +="二爻錯誤"+"<br>";}
      }
     document.getElementById("demo").innerHTML +="<br />";
     var yau6=res[0];
@@ -280,12 +352,22 @@ function submit(){
     var e = Math.floor(d/10);
     var f = Math.floor(d-e*10);
     var g = e+f;
+    var yau6_num=g;
     var changeNum6;var yaudown3;var yauCdown3;
-    if  (g%2===0){
-        if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-            yaudown3=2;yauCdown3=1;changeNum6=1;
-            document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
- 
+    if (a+b+c===0){
+        yaudown3=9;yauCdown3=9;changeNum6=9;
+        document.getElementById("demo").innerHTML +="初爻錯誤"+"<br>";}
+        
+
+    else if  (g%2===0){
+        if (yau6>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown3=2;yauCdown3=1;changeNum6=1;
+                document.getElementById("demo").innerHTML +="<img src='yinchange.jpg' />"+"<br>";}
+            else{
+                yaudown3=2;yauCdown3=2;changeNum6=0;
+                document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
+            }
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown3=2;yauCdown3=2;changeNum6=0;
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
@@ -294,17 +376,22 @@ function submit(){
             document.getElementById("demo").innerHTML +="<img src='yin.jpg' />"+"<br>";}
     }
     else {
-     if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
-        yaudown3=1;yauCdown3=2;changeNum6=1;
-        document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}
- 
+        if (yau6>99 ){
+            if (a%2+b%2+c%2===0 || a%2+b%2+c%2===3){
+                yaudown3=1;yauCdown3=2;changeNum6=1;
+                document.getElementById("demo").innerHTML +="<img src='yanchange.jpg' />"+"<br>";}        
+            else{
+                yaudown3=1;yauCdown3=1;changeNum6=0;
+                document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
+            }
+     
         else if (a%2+b%2+c%2===1 || a%2+b%2+c%2===2){
             yaudown3=1;yauCdown3=1;changeNum6=0;
             document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
         else{
-            yaudown3=1;yauCdown3=1;changeNum6=0;
-            document.getElementById("demo").innerHTML +="<img src='yan.jpg' />"+"<br>";}
-     }
+            yaudown3=9;yauCdown3=9;changeNum6=9;
+            document.getElementById("demo").innerHTML +="初爻錯誤"+"<br>";}
+        }
 
      var mainguaTop=yautop1*100+yautop2*10+yautop3;
      var mainguaDown=yaudown1*100+yaudown2*10+yaudown3;
@@ -312,22 +399,32 @@ function submit(){
      var chguaDown=yauCdown1*100+yauCdown2*10+yauCdown3;
      var changeNum=changeNum1+changeNum2+changeNum3+changeNum4+changeNum5+changeNum6;
      var upNum1;var downNum1;var upNum2;var downNum2;
-     switch(mainguaTop){
-         case 111:upNum1=0;break;case 222:upNum1=1;break;case 211:upNum1=2;break;case 122:upNum1=3;break;
-         case 121:upNum1=4;break;case 212:upNum1=5;break;case 221:upNum1=6;break;case 112:upNum1=7;break;
+     if (yautop1===9 ||yautop2===9 ||yautop3===9){ 
+        document.getElementById("demo").innerHTML +="<br>💚 請輸入正確的數字 💚<br />";
      }
-     switch(mainguaDown){
-         case 111:downNum1=0;break;case 222:downNum1=1;break;case 211:downNum1=2;break;case 122:downNum1=3;break;
-         case 121:downNum1=4;break;case 212:downNum1=5;break;case 221:downNum1=6;break;case 112:downNum1=7;break;
+
+     else if (yaudown1===9 ||yaudown2===9 ||yaudown3===9){ 
+        document.getElementById("demo").innerHTML +="<br>💙 請輸入正確的數字 💙<br />";
      }
-     switch(chguaUp){
-         case 111:upNum2=0;break;case 222:upNum2=1;break;case 211:upNum2=2;break;case 122:upNum2=3;break;
-         case 121:upNum2=4;break;case 212:upNum2=5;break;case 221:upNum2=6;break;case 112:upNum2=7;break;
-     }
-     switch(chguaDown){
-         case 111:downNum2=0;break;case 222:downNum2=1;break;case 211:downNum2=2;break;case 122:downNum2=3;break;
-         case 121:downNum2=4;break;case 212:downNum2=5;break;case 221:downNum2=6;break;case 112:downNum2=7;break;
-     }
+    else{
+        switch(mainguaTop){
+            case 111:upNum1=0;break;case 222:upNum1=1;break;case 211:upNum1=2;break;case 122:upNum1=3;break;
+            case 121:upNum1=4;break;case 212:upNum1=5;break;case 221:upNum1=6;break;case 112:upNum1=7;break;
+        }
+        switch(mainguaDown){
+            case 111:downNum1=0;break;case 222:downNum1=1;break;case 211:downNum1=2;break;case 122:downNum1=3;break;
+            case 121:downNum1=4;break;case 212:downNum1=5;break;case 221:downNum1=6;break;case 112:downNum1=7;break;
+        }
+        switch(chguaUp){
+            case 111:upNum2=0;break;case 222:upNum2=1;break;case 211:upNum2=2;break;case 122:upNum2=3;break;
+            case 121:upNum2=4;break;case 212:upNum2=5;break;case 221:upNum2=6;break;case 112:upNum2=7;break;
+        }
+        switch(chguaDown){
+            case 111:downNum2=0;break;case 222:downNum2=1;break;case 211:downNum2=2;break;case 122:downNum2=3;break;
+            case 121:downNum2=4;break;case 212:downNum2=5;break;case 221:downNum2=6;break;case 112:downNum2=7;break;
+        }
+   
+    }
      var getGua=new Array();
      {getGua[0]=new Array();getGua[0][0]="乾  ";getGua[0][1]="否  ";getGua[0][2]="履  ";getGua[0][3]="遯  ";getGua[0][4]="同人";getGua[0][5]="訟  ";getGua[0][6]="無妄";getGua[0][7]="姤  ";
      getGua[1]=new Array();getGua[1][0]="泰  ";getGua[1][1]="坤  ";getGua[1][2]="臨  ";getGua[1][3]="謙  ";getGua[1][4]="明夷";getGua[1][5]="師  ";getGua[1][6]="復  ";getGua[1][7]="升  ";
@@ -337,23 +434,57 @@ function submit(){
      getGua[5]=new Array();getGua[5][0]="需  ";getGua[5][1]="比  ";getGua[5][2]="節  ";getGua[5][3]="蹇  ";getGua[5][4]="既濟";getGua[5][5]="坎  ";getGua[5][6]="屯  ";getGua[5][7]="井  ";
      getGua[6]=new Array();getGua[6][0]="大壯";getGua[6][1]="豫  ";getGua[6][2]="歸妹";getGua[6][3]="小過";getGua[6][4]="豐  ";getGua[6][5]="解  ";getGua[6][6]="震  ";getGua[6][7]="恒  ";
      getGua[7]=new Array();getGua[7][0]="小畜";getGua[7][1]="觀  ";getGua[7][2]="中孚";getGua[7][3]="漸  ";getGua[7][4]="家人";getGua[7][5]="渙  ";getGua[7][6]="益  ";getGua[7][7]="巽  ";
-     }
-     
-     {document.getElementById("demo").innerHTML +="<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦　　變　　"+getGua[upNum2][downNum2]+"卦</font></b><br>";
-     
-     }
+    }
+  
+    var total_num=(yau1_num+yau2_num+yau3_num+yau4_num+yau5_num+yau6_num)%6;
+    var getN="  "
+    switch(total_num){
+        case 0:
+            if (yautop1===2){getN="上六";}
+            else if (yautop1===1){getN="上九";}
+            else{getN="  ";}break;
+        case 1:            
+            if (yaudown3===2){getN="初六";}
+            else if (yaudown3===1){getN="初九";}
+            else{getN="  ";}break;
+        case 2:
+            if (yaudown2===2){getN="六二";}
+            else if (yaudown2===1){getN="九二";}
+            else{getN="  ";}break;
+        case 3:
+            if (yaudown1===2){getN="六三";}
+            else if (yaudown1===1){getN="九三";}
+            else{getN="  ";}break;
+        case 4:
+            if (yautop3===2){getN="六四";}
+            else if (yautop3===1){getN="九四";}
+            else{getN="  ";}break;
+        case 5:
+            if (yautop2===2){getN="六五";}
+            else if (yautop2===1){getN="九五";}
+            else{getN="  ";}break;
+    }
+     document.getElementById("demo").innerHTML +="<br><font size=5><b>"+getGua[upNum1][downNum1]+"卦";
+     document.getElementById("demo").innerHTML +="<font size=5><b>"+getN+" 變 "+getGua[upNum2][downNum2]+"卦</font></b><br>";
      
      if(getGua[upNum1][downNum1]==getGua[upNum2][downNum2]){
         document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>";
+        document.getElementById("demo").innerHTML +="<br />";
+        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
+
      }
      else{
         document.getElementById("demo").innerHTML +="<br />";
         document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>";
         document.getElementById("demo").innerHTML +="<br />";
         document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum2][downNum2]+"</font></b>";
+        document.getElementById("demo").innerHTML +="<br />";
+        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
+
      }
      document.getElementById("demo").innerHTML +="<br>"+"	</br>"
      document.getElementById("demo").innerHTML +="<h5>若是想知道更多資訊，可以追蹤instagram"+"<a href="+"https://www.instagram.com/the_book_of_change/"+">＠the_book_of_change </a></h5>";
+
 
      
 }
