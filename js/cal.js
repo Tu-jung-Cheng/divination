@@ -84,7 +84,6 @@ var getS=new Array();
 
 function submit(){
     var str = document.getElementById("n1").value;
-
     var res = str.split(/[-./\\()"',;<>~!@#$%^&*|+=[\]{}`~?: ]/u,6);
     document.getElementById("demo").innerHTML ="<br></br>";  
 
@@ -469,7 +468,8 @@ function submit(){
      if(getGua[upNum1][downNum1]==getGua[upNum2][downNum2]){
         document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum1][downNum1]+"</font></b>";
         document.getElementById("demo").innerHTML +="<br />";
-        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
+        //document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
+        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，贈送一次客製化卜卦，通關密語：葡萄萄 💛";  
 
      }
      else{
@@ -478,8 +478,9 @@ function submit(){
         document.getElementById("demo").innerHTML +="<br />";
         document.getElementById("demo").innerHTML +="<br><font size=4>"+getS[upNum2][downNum2]+"</font></b>";
         document.getElementById("demo").innerHTML +="<br />";
-        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
-
+        document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，贈送一次客製化卜卦，通關密語：葡萄萄 💛";  
+        //document.getElementById("demo").innerHTML +="<br>"+'<font color="green">'+"💛 你發現了彩蛋，在問答輸入：葡萄萄 💛";  
+          
      }
      document.getElementById("demo").innerHTML +="<br>"+"	</br>"
      document.getElementById("demo").innerHTML +="<h5>若是想知道更多資訊，可以追蹤instagram"+"<a href="+"https://www.instagram.com/the_book_of_change/"+">＠the_book_of_change </a></h5>";
