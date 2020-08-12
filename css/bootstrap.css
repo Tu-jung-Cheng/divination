@@ -7,7 +7,9 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+ul a {
+  text-decoration:none;
+}
 .jumbotron {
     background-color: #3443548e;
     color:  #d1ccc4;
